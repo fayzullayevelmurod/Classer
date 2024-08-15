@@ -1,0 +1,21 @@
+.orange-btn {
+	background: #FF693F;
+	padding: 20px;
+	border-radius: 12px;
+	border: 1px solid #FF693F;
+	transition: all .2s linear;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	color: #fff;
+	height: 65px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+	&:hover {
+		background: transparent;
+		color: #FF693F;
+	}
+}
