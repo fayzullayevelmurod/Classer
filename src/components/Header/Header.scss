@@ -80,6 +80,24 @@ header {
 
 		.menu-bars {
 			display: block;
+
+			.show-menu {
+				display: none;
+
+				&.show {
+					display: block;
+				}
+			}
+
+			.close-menu {
+				display: none;
+				width: 24px;
+				height: 24px;
+
+				&.show {
+					display: block;
+				}
+			}
 		}
 
 		.container {
