@@ -1,3 +1,7 @@
+main {
+	margin-top: 100px;
+}
+
 .intro {
 	padding-top: 100px;
 
@@ -44,9 +48,9 @@
 	}
 
 	&-title {
-		font-size: 100px;
+		font-size: 75px;
 		font-weight: 600;
-		line-height: 146.28px;
+		line-height: 85px;
 		color: #143D81;
 
 		span {
@@ -57,7 +61,8 @@
 	.animated-text {
 		color: #3F72C6;
 		font-weight: 600;
-		font-size: 65px;
+		font-size: 50px;
+		line-height: 60px;
 		white-space: nowrap;
 	}
 
@@ -65,7 +70,7 @@
 	.consultations {
 		margin-top: 350px;
 		background: #6699ED;
-		padding: 72px 0;
+		padding: 72px 0 120px 0;
 		color: #fff;
 
 		.container {
@@ -80,29 +85,30 @@
 		}
 
 		.students-score {
-			font-size: 32px;
+			font-size: 18px;
 			font-weight: 500;
-			line-height: 39.01px;
+			line-height: 25px;
 			color: #EBF2FD;
 		}
 
 		&-info__title {
-			font-size: 50px;
+			font-size: 35px;
 			font-weight: 600;
-			line-height: 60.95px;
-			padding: 48px 0;
+			line-height: 45px;
+			padding: 22px 0;
+			max-width: 60%;
 		}
 
 		.desc {
 			color: #EBF2FD;
-			font-size: 32px;
+			font-size: 22px;
 			font-weight: 500;
-			line-height: 39.01px;
+			line-height: 25px;
 
 			span {
-				font-size: 32px;
+				font-size: 22px;
 				font-weight: 700;
-				line-height: 39.01px;
+				line-height: 25px;
 			}
 
 			.bold {
@@ -122,11 +128,11 @@
 		}
 
 		&-form__title {
-			font-size: 32px;
+			font-size: 25px;
 			font-weight: 600;
-			line-height: 39.01px;
+			line-height: 35px;
 			color: #3F72C6;
-			padding-bottom: 36px;
+			padding-bottom: 15px;
 
 			span {
 				color: #FF693F;
@@ -189,9 +195,9 @@
 			.select-option {
 				cursor: pointer;
 				user-select: none;
-				font-size: 24px;
+				font-size: 16px;
 				font-weight: 500;
-				line-height: 29.26px;
+				line-height: 19px;
 				color: #143D81;
 			}
 		}
@@ -200,11 +206,6 @@
 
 // media
 @media screen and (max-width: 1650px) {
-	.intro-title {
-		font-size: 80px;
-		line-height: 90px;
-	}
-
 	.intro-content {
 		max-width: 684px;
 		min-width: 684px;
@@ -220,11 +221,6 @@
 		&.reviews-img {
 			width: 600px;
 		}
-	}
-
-	.intro .animated-text {
-		font-size: 55px;
-		line-height: 65px;
 	}
 }
 
@@ -271,16 +267,12 @@
 	}
 
 	.intro .consultations {
-		margin-bottom: 515px;
+		margin-bottom: 390px;
 		margin-top: 75px;
 	}
 
 	.intro .consultations-info {
 		max-width: 100%;
-	}
-
-	.intro .consultations-info__title {
-		padding: 24px 0;
 	}
 
 	.intro .consultations .desc {
@@ -370,5 +362,9 @@
 
 	.intro .intro-img__box {
 		height: 340px;
+	}
+
+	.intro {
+		padding-top: 50px;
 	}
 }
