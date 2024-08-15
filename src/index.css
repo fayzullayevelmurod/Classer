@@ -130,3 +130,10 @@ body {
 		margin-top: 80px;
 	}
 }
+
+@media (min-width: 1080px) {
+	.container {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+}
