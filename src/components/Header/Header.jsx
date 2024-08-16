@@ -32,7 +32,7 @@ export const Header = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#!">
+              <a className="nav-link" href="#methodologies">
                 Методики
               </a>
             </li>
@@ -42,7 +42,7 @@ export const Header = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#!">
+              <a className="nav-link" href="#faq">
                 Вопрос-ответ
               </a>
             </li>

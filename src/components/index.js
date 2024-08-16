@@ -7,3 +7,4 @@ export { Tabs } from './Tabs/Tabs';
 export { Subjects } from './Subjects/Subjects';
 export { Teachers } from './Teachers/Teachers';
 export {FAQ} from './FAQ/FAQ';
+export { Footer } from './Footer/Footer'

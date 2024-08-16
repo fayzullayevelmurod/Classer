@@ -1,7 +1,8 @@
 import React from "react";
 import {
-	FAQ,
+  FAQ,
   Features,
+  Footer,
   Header,
   HeroSection,
   Methodologies,
@@ -19,8 +20,10 @@ export const HomePage = () => {
         <Features />
         <Subjects />
         <Teachers />
-				<FAQ />
+        <FAQ />
       </main>
+
+      <Footer />
     </>
   );
 };

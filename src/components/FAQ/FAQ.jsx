@@ -14,7 +14,7 @@ export const FAQ = () => {
   };
 
   return (
-    <section className="faq">
+    <section className="faq" id="faq">
       <div className="container">
         <h2 className="title">Вопрос-ответ</h2>
         <div className="answers">

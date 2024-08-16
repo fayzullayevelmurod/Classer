@@ -4,7 +4,7 @@ import assets from "../../assets";
 
 export const Methodologies = () => {
   return (
-    <section className="methodologies">
+    <section className="methodologies" id="methodologies">
       <div className="container">
         <h2 className="title">Методики</h2>
         <div className="methodologies-boxes">
