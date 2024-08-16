@@ -5,6 +5,9 @@ import menuBars from './icons/menu-bars.svg'
 import headerMediaLogo from './header-media-logo.svg';
 import teachers from './teachers.png';
 import reviews from './reviews.png';
+import certificate from './certificate.png';
+import owl1 from './owl-1.png';
+
 export default {
 	logo,
 	cart,
@@ -12,5 +15,6 @@ export default {
 	menuBars,
 	headerMediaLogo,
 	teachers,
-	reviews
+	reviews,
+	certificate
 }
