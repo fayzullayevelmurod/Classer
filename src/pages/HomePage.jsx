@@ -1,5 +1,6 @@
 import React from "react";
 import {
+	FAQ,
   Features,
   Header,
   HeroSection,
@@ -18,6 +19,7 @@ export const HomePage = () => {
         <Features />
         <Subjects />
         <Teachers />
+				<FAQ />
       </main>
     </>
   );

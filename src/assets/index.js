@@ -10,7 +10,8 @@ import owl1 from './owl-1.png';
 import owl2 from './owl-2.png';
 import teacherImg from './teacher-img.png';
 import ovl from './ovl.png';
-import vkLogo from './icons/vk-logo.png'
+import vkLogo from './icons/vk-logo.png';
+import plusIcon from './icons/plus.svg'
 export default {
 	logo,
 	cart,
@@ -24,5 +25,6 @@ export default {
 	owl2,
 	teacherImg,
 	ovl,
-	vkLogo
+	vkLogo,
+	plusIcon
 }
