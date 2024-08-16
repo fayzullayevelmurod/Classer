@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header, HeroSection, Methodologies } from "../components";
+import { Features, Header, HeroSection, Methodologies } from "../components";
 
 export const HomePage = () => {
 	return (
@@ -8,6 +8,7 @@ export const HomePage = () => {
       <main>
         <HeroSection />
 				<Methodologies />
+				<Features />
       </main>
     </>
   );

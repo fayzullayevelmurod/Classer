@@ -1,0 +1,39 @@
+.features {
+	padding-bottom: 192px;
+
+	&-content {
+		max-width: 1339px;
+		position: relative;
+		z-index: 1;
+	}
+
+	.teacher-owl {
+		position: absolute;
+		right: -154px;
+		top: 62%;
+		transform: translateY(-50%);
+		z-index: -1;
+		height: 261.91px;
+	}
+
+	&-card {
+		background: #EBF2FD;
+		border-radius: 20px;
+		padding: 48px;
+
+		&__title {
+			font-size: 30px;
+			font-weight: 600;
+			line-height: 40px;
+			color: #3F72C6;
+		}
+
+		&__desc {
+			font-size: 16px;
+			font-weight: 500;
+			line-height: 19px;
+			color: #143D81;
+			padding-top: 20px;
+		}
+	}
+}

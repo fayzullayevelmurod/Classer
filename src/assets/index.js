@@ -16,5 +16,6 @@ export default {
 	headerMediaLogo,
 	teachers,
 	reviews,
-	certificate
+	certificate,
+	owl1
 }

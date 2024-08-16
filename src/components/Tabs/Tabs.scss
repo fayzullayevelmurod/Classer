@@ -1,0 +1,28 @@
+.tabs {
+	display: flex;
+	gap: 12px;
+	margin-bottom: 24px;
+
+	.tab-item {
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 19px;
+		border-radius: 12px;
+		border: 2px solid #3F72C6;
+		color: #3F72C6;
+		height: 50px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 12px;
+		cursor: pointer;
+		user-select: none;
+		transition: all .2s linear;
+
+		&:hover,
+		&.active {
+			background: #3F72C6;
+			color: #fff;
+		}
+	}
+}
