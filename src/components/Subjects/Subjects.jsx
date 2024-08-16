@@ -42,7 +42,7 @@ export const Subjects = () => {
             <div className="desc-box">
               <ul className="tabs">
                 <li className="tab-item">Classic</li>
-                <li className="tab-item">Optimus</li>
+                <li className="tab-item active">Optimus</li>
                 <li className="tab-item">Promaster</li>
                 <li className="tab-item">Personal</li>
               </ul>

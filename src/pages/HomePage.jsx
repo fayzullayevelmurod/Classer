@@ -5,6 +5,7 @@ import {
   HeroSection,
   Methodologies,
   Subjects,
+  Teachers,
 } from "../components";
 
 export const HomePage = () => {
@@ -16,6 +17,7 @@ export const HomePage = () => {
         <Methodologies />
         <Features />
         <Subjects />
+        <Teachers />
       </main>
     </>
   );
