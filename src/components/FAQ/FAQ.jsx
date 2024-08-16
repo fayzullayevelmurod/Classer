@@ -1,9 +1,22 @@
 import React, { useState } from "react";
 import "./FAQ.scss";
 import assets from "../../assets";
+import { Button } from "../Button/Button";
 
 export const FAQ = () => {
   const [activeIndex, setActiveIndex] = useState(null);
+
+  const [isOpen, setIsOpen] = useState(false);
+  const [selectedValue, setSelectedValue] = useState("");
+
+  const handleSelectToggle = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const handleOptionClick = (value) => {
+    setSelectedValue(value);
+    setIsOpen(false);
+  };
 
   const toggleAccordion = (index) => {
     if (activeIndex === index) {
@@ -330,6 +343,64 @@ export const FAQ = () => {
             )}
           </div>
         </div>
+      </div>
+
+      <div className="start-learning container">
+        <img className="start-learning__img" src={assets.classterOvl} alt="" />
+        <div>
+          <h3 className="start-learning__title">
+            Начни учиться с Класстером сейчас
+          </h3>
+          <p className="start-learning__desc">
+            Отправь контакты и мы проконсультируем по любым вопросам
+          </p>
+        </div>
+        <form>
+          <div className="input-box">
+            <div className="custom-select">
+              <div
+                className="selected-box form-control"
+                onClick={handleSelectToggle}
+              >
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="Класс"
+                  value={selectedValue}
+                  readOnly
+                />
+                <img src={assets.arrowDown} alt="arrow down" />
+              </div>
+              <div className={`select-options ${isOpen ? "show" : ""}`}>
+                <div
+                  className="select-option"
+                  onClick={() => handleOptionClick("Value 1")}
+                >
+                  Value 1
+                </div>
+                <div
+                  className="select-option"
+                  onClick={() => handleOptionClick("Value 2")}
+                >
+                  Value 2
+                </div>
+                <div
+                  className="select-option"
+                  onClick={() => handleOptionClick("Value 3")}
+                >
+                  Value 3
+                </div>
+              </div>
+            </div>
+            <input type="text" placeholder="Имя" className="form-control" />
+            <input
+              type="tel"
+              placeholder="Номер телефона"
+              className="form-control"
+            />
+          </div>
+          <Button label="Записаться" />
+        </form>
       </div>
     </section>
   );

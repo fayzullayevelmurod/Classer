@@ -11,7 +11,8 @@ import owl2 from './owl-2.png';
 import teacherImg from './teacher-img.png';
 import ovl from './ovl.png';
 import vkLogo from './icons/vk-logo.png';
-import plusIcon from './icons/plus.svg'
+import plusIcon from './icons/plus.svg';
+import classterOvl from './classter-ovl.png';
 export default {
 	logo,
 	cart,
@@ -26,5 +27,6 @@ export default {
 	teacherImg,
 	ovl,
 	vkLogo,
-	plusIcon
+	plusIcon,
+	classterOvl
 }

@@ -63,4 +63,55 @@
 		}
 	}
 
+	// start-learning
+	.start-learning {
+		background: #6699ED;
+		box-shadow: 0px 0px 20px 0px #00000026;
+		padding: 48px;
+		border-radius: 20px;
+		color: #fff;
+		position: relative;
+		margin-top: 192px;
+
+		&__img {
+			position: absolute;
+			bottom: 0;
+			left: 48px;
+		}
+
+		&__title {
+			font-size: 45px;
+			font-weight: 600;
+			line-height: 55px;
+		}
+
+		&__desc {
+			font-size: 20px;
+			font-weight: 500;
+			line-height: 30px;
+			opacity: 0.75;
+			padding-top: 20px;
+		}
+
+		form {
+			max-width: 506px;
+			width: 100%;
+
+			.orange-btn {
+				width: 100%;
+
+				&:hover {
+					background: #FF693F;
+					color: #fff;
+				}
+			}
+
+			.input-box {
+				display: flex;
+				flex-direction: column;
+				gap: 12px;
+				padding-bottom: 30px;
+			}
+		}
+	}
 }
