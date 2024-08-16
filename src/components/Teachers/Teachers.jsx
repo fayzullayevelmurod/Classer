@@ -2,9 +2,9 @@ import React from "react";
 import "./Teachers.scss";
 import assets from "../../assets";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Button } from "../Button/Button";
 
 import "swiper/css";
-
 
 export const Teachers = () => {
   return (
@@ -20,7 +20,7 @@ export const Teachers = () => {
             slidesPerView={3.3}
             onSlideChange={() => console.log("slide change")}
             onSwiper={(swiper) => console.log(swiper)}
-						className="teacher-swiper"
+            className="teacher-swiper"
           >
             <SwiperSlide>
               <div className="teacher-img__box">
@@ -93,6 +93,19 @@ export const Teachers = () => {
               </div>
             </SwiperSlide>
           </Swiper>
+        </div>
+
+        <div className="reviews">
+          <h3 className="reviews-title">
+            Реальные отзывы от реально крутых ребят и их родителей
+          </h3>
+          <a className="reviews-btn" href="#!">
+            Смотреть отзывы
+          </a>
+          <div className="reviews-images">
+            <img src={assets.vkLogo} alt="" />
+            <img src={assets.ovl} alt="" />
+          </div>
         </div>
       </div>
     </section>

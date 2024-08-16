@@ -7,8 +7,8 @@
 		width: 355.37px;
 		height: 265.34px;
 		position: absolute;
-		top: -195px;
-		right: -100px;
+		top: -165px;
+		right: -150px;
 	}
 
 	.teacher-img__box {
@@ -50,5 +50,52 @@
 
 	.teacher-swiper {
 		overflow: visible !important;
+	}
+
+	.reviews {
+		background: #EBF2FD;
+		padding: 48px 48px 82px 48px;
+		border-radius: 20px;
+		margin: 192px 0;
+		width: fit-content;
+		position: relative;
+overflow: hidden;
+		&-images {
+			position: absolute;
+			bottom: -15px;
+			right: 58px;
+			display: flex;
+			transform: scale(0.8);
+		}
+
+		&-title {
+			font-size: 30px;
+			font-weight: 600;
+			line-height: 40px;
+			color: #3F72C6;
+			max-width: 720px;
+			width: 100%;
+		}
+
+		&-btn {
+			font-size: 16px;
+			font-weight: 500;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: fit-content;
+			border: 2px solid #3F72C6;
+			color: #3F72C6;
+			border-radius: 12px;
+			height: 50px;
+			padding: 0 20px;
+			transition: all .2s linear;
+			margin-top: 25px;
+
+			&:hover {
+				background: #3F72C6;
+				color: #fff;
+			}
+		}
 	}
 }

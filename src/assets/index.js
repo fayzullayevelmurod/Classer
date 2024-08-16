@@ -8,7 +8,9 @@ import reviews from './reviews.png';
 import certificate from './certificate.png';
 import owl1 from './owl-1.png';
 import owl2 from './owl-2.png';
-import teacherImg from './teacher-img.png'
+import teacherImg from './teacher-img.png';
+import ovl from './ovl.png';
+import vkLogo from './icons/vk-logo.png'
 export default {
 	logo,
 	cart,
@@ -20,5 +22,7 @@ export default {
 	certificate,
 	owl1,
 	owl2,
-	teacherImg
+	teacherImg,
+	ovl,
+	vkLogo
 }
