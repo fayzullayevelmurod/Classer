@@ -14,7 +14,6 @@ export const Teachers = () => {
 
         <div className="teacher-cards">
           <img className="owl-img" src={assets.owl2} alt="owl 2" />
-
           <Swiper
             spaceBetween={22}
             slidesPerView={3.3}
@@ -23,73 +22,83 @@ export const Teachers = () => {
             className="teacher-swiper"
           >
             <SwiperSlide>
-              <div className="teacher-img__box">
-                <div className="info-box">
-                  Русский язык <br />
-                  <span>Кристина Абрамова</span>
+              <div className="flip-card">
+                <div className="flip-card-inner">
+                  <div className="flip-card-front">
+                    <img src={assets.teacherImg} alt="Avatar" />
+                  </div>
+                  <div className="flip-card-back">
+                    <div className="info-box">
+                      Русский язык <br />
+                      <span>Кристина Абрамова</span>
+                    </div>
+                    <div className="info-box">ЕГЭ русский: 100 баллов 🤯 </div>
+                  </div>
                 </div>
-                <img
-                  className="teacher-img"
-                  src={assets.teacherImg}
-                  alt="teacher img"
-                />
-                <div className="info-box">ЕГЭ русский: 100 баллов 🤯 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="teacher-img__box">
-                <div className="info-box">
-                  Русский язык <br />
-                  <span>Кристина Абрамова</span>
+              <div className="flip-card">
+                <div className="flip-card-inner">
+                  <div className="flip-card-front">
+                    <img src={assets.teacherImg} alt="Avatar" />
+                  </div>
+                  <div className="flip-card-back">
+                    <div className="info-box">
+                      Русский язык <br />
+                      <span>Кристина Абрамова</span>
+                    </div>
+                    <div className="info-box">ЕГЭ русский: 100 баллов 🤯 </div>
+                  </div>
                 </div>
-                <img
-                  className="teacher-img"
-                  src={assets.teacherImg}
-                  alt="teacher img"
-                />
-                <div className="info-box">ЕГЭ русский: 100 баллов 🤯 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="teacher-img__box">
-                <div className="info-box">
-                  Русский язык <br />
-                  <span>Кристина Абрамова</span>
+              <div className="flip-card">
+                <div className="flip-card-inner">
+                  <div className="flip-card-front">
+                    <img src={assets.teacherImg} alt="Avatar" />
+                  </div>
+                  <div className="flip-card-back">
+                    <div className="info-box">
+                      Русский язык <br />
+                      <span>Кристина Абрамова</span>
+                    </div>
+                    <div className="info-box">ЕГЭ русский: 100 баллов 🤯 </div>
+                  </div>
                 </div>
-                <img
-                  className="teacher-img"
-                  src={assets.teacherImg}
-                  alt="teacher img"
-                />
-                <div className="info-box">ЕГЭ русский: 100 баллов 🤯 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="teacher-img__box">
-                <div className="info-box">
-                  Русский язык <br />
-                  <span>Кристина Абрамова</span>
+              <div className="flip-card">
+                <div className="flip-card-inner">
+                  <div className="flip-card-front">
+                    <img src={assets.teacherImg} alt="Avatar" />
+                  </div>
+                  <div className="flip-card-back">
+                    <div className="info-box">
+                      Русский язык <br />
+                      <span>Кристина Абрамова</span>
+                    </div>
+                    <div className="info-box">ЕГЭ русский: 100 баллов 🤯 </div>
+                  </div>
                 </div>
-                <img
-                  className="teacher-img"
-                  src={assets.teacherImg}
-                  alt="teacher img"
-                />
-                <div className="info-box">ЕГЭ русский: 100 баллов 🤯 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="teacher-img__box">
-                <div className="info-box">
-                  Русский язык <br />
-                  <span>Кристина Абрамова</span>
+              <div className="flip-card">
+                <div className="flip-card-inner">
+                  <div className="flip-card-front">
+                    <img src={assets.teacherImg} alt="Avatar" />
+                  </div>
+                  <div className="flip-card-back">
+                    <div className="info-box">
+                      Русский язык <br />
+                      <span>Кристина Абрамова</span>
+                    </div>
+                    <div className="info-box">ЕГЭ русский: 100 баллов 🤯 </div>
+                  </div>
                 </div>
-                <img
-                  className="teacher-img"
-                  src={assets.teacherImg}
-                  alt="teacher img"
-                />
-                <div className="info-box">ЕГЭ русский: 100 баллов 🤯 </div>
               </div>
             </SwiperSlide>
           </Swiper>

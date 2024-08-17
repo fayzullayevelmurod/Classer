@@ -13,6 +13,12 @@ import ovl from './ovl.png';
 import vkLogo from './icons/vk-logo.png';
 import plusIcon from './icons/plus.svg';
 import classterOvl from './classter-ovl.png';
+import simle from './icons/smile.png';
+import note from './icons/note.png';
+import statistiks from './icons/statistiks.png';
+import teacher from './icons/teacher.png';
+import folder from './icons/folder.png';
+import fly from './icons/fly.png';
 export default {
 	logo,
 	cart,
@@ -28,5 +34,11 @@ export default {
 	ovl,
 	vkLogo,
 	plusIcon,
-	classterOvl
+	classterOvl,
+	simle,
+	note,
+	statistiks,
+	teacher,
+	folder,
+	fly
 }
