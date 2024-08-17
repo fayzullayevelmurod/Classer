@@ -214,7 +214,7 @@ export const Teachers = () => {
           </a>
           <div className="reviews-images">
             <img src={assets.vkLogo} alt="" />
-            <img src={assets.ovl} alt="" />
+            <img className="ovl-img" src={assets.ovl} alt="" />
           </div>
         </div>
       </div>

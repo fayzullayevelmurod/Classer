@@ -75,6 +75,12 @@
 			transform: scale(0.8);
 		}
 
+		.ovl-img {
+			position: relative;
+			z-index: -1;
+			transform: translateX(-45px);
+		}
+
 		&-title {
 			font-size: 50px;
 			font-weight: 600;
@@ -234,5 +240,9 @@
 	.teacher .swiper-button {
 		width: 40px;
 		height: 40px;
+	}
+
+	.teacher .reviews .ovl-img {
+		transform: translateX(-18px);
 	}
 }
