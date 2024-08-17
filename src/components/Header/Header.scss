@@ -176,3 +176,14 @@ header {
 		}
 	}
 }
+
+/* Only for desktop */
+@media (min-width: 1024px) {
+	header {
+		padding: 20px;
+
+		.container {
+			border-radius: 20px;
+		}
+	}
+}

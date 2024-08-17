@@ -92,6 +92,7 @@
 		height: 100%;
 		transition: transform 0.8s;
 		transform-style: preserve-3d;
+		box-sizing: border-box;
 	}
 
 	.flip-card:hover .flip-card-inner {
@@ -110,10 +111,19 @@
 	}
 
 	.flip-card-front {
-		img {
+		// position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		padding: 24px;
+
+		.teacher-img {
 			width: 100%;
 			height: 100%;
 			object-fit: cover;
+			position: absolute;
+			top: 0;
+			left: 0;
 		}
 	}
 
@@ -175,6 +185,10 @@
 				width: 276px;
 			}
 		}
+	}
+
+	.teacher .flip-card-front {
+		padding: 12px;
 	}
 }
 

@@ -2,7 +2,6 @@ import React from "react";
 import "./Teachers.scss";
 import assets from "../../assets";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Button } from "../Button/Button";
 
 import "swiper/css";
 
@@ -20,7 +19,7 @@ export const Teachers = () => {
             breakpoints={{
               0: {
                 slidesPerView: 1.2,
-								spaceBetween: 12,
+                spaceBetween: 12,
               },
               600: {
                 slidesPerView: 2,
@@ -40,14 +39,24 @@ export const Teachers = () => {
               <div className="flip-card">
                 <div className="flip-card-inner">
                   <div className="flip-card-front">
-                    <img src={assets.teacherImg} alt="Avatar" />
-                  </div>
-                  <div className="flip-card-back">
+                    <img
+                      className="teacher-img"
+                      src={assets.teacherImg}
+                      alt="Avatar"
+                    />
                     <div className="info-box">
                       Русский язык <br />
                       <span>Кристина Абрамова</span>
                     </div>
                     <div className="info-box">ЕГЭ русский: 100 баллов 🤯 </div>
+                  </div>
+                  <div className="flip-card-back">
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Accusantium nisi quod repellendus quis placeat ullam, et
+                      est reiciendis quam, atque eaque suscipit? Repellat id,
+                      iure asperiores veniam sunt recusandae incidunt.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -56,14 +65,24 @@ export const Teachers = () => {
               <div className="flip-card">
                 <div className="flip-card-inner">
                   <div className="flip-card-front">
-                    <img src={assets.teacherImg} alt="Avatar" />
-                  </div>
-                  <div className="flip-card-back">
+                    <img
+                      className="teacher-img"
+                      src={assets.teacherImg}
+                      alt="Avatar"
+                    />
                     <div className="info-box">
                       Русский язык <br />
                       <span>Кристина Абрамова</span>
                     </div>
                     <div className="info-box">ЕГЭ русский: 100 баллов 🤯 </div>
+                  </div>
+                  <div className="flip-card-back">
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Accusantium nisi quod repellendus quis placeat ullam, et
+                      est reiciendis quam, atque eaque suscipit? Repellat id,
+                      iure asperiores veniam sunt recusandae incidunt.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -72,14 +91,24 @@ export const Teachers = () => {
               <div className="flip-card">
                 <div className="flip-card-inner">
                   <div className="flip-card-front">
-                    <img src={assets.teacherImg} alt="Avatar" />
-                  </div>
-                  <div className="flip-card-back">
+                    <img
+                      className="teacher-img"
+                      src={assets.teacherImg}
+                      alt="Avatar"
+                    />
                     <div className="info-box">
                       Русский язык <br />
                       <span>Кристина Абрамова</span>
                     </div>
                     <div className="info-box">ЕГЭ русский: 100 баллов 🤯 </div>
+                  </div>
+                  <div className="flip-card-back">
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Accusantium nisi quod repellendus quis placeat ullam, et
+                      est reiciendis quam, atque eaque suscipit? Repellat id,
+                      iure asperiores veniam sunt recusandae incidunt.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -88,14 +117,24 @@ export const Teachers = () => {
               <div className="flip-card">
                 <div className="flip-card-inner">
                   <div className="flip-card-front">
-                    <img src={assets.teacherImg} alt="Avatar" />
-                  </div>
-                  <div className="flip-card-back">
+                    <img
+                      className="teacher-img"
+                      src={assets.teacherImg}
+                      alt="Avatar"
+                    />
                     <div className="info-box">
                       Русский язык <br />
                       <span>Кристина Абрамова</span>
                     </div>
                     <div className="info-box">ЕГЭ русский: 100 баллов 🤯 </div>
+                  </div>
+                  <div className="flip-card-back">
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Accusantium nisi quod repellendus quis placeat ullam, et
+                      est reiciendis quam, atque eaque suscipit? Repellat id,
+                      iure asperiores veniam sunt recusandae incidunt.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -104,14 +143,24 @@ export const Teachers = () => {
               <div className="flip-card">
                 <div className="flip-card-inner">
                   <div className="flip-card-front">
-                    <img src={assets.teacherImg} alt="Avatar" />
-                  </div>
-                  <div className="flip-card-back">
+                    <img
+                      className="teacher-img"
+                      src={assets.teacherImg}
+                      alt="Avatar"
+                    />
                     <div className="info-box">
                       Русский язык <br />
                       <span>Кристина Абрамова</span>
                     </div>
                     <div className="info-box">ЕГЭ русский: 100 баллов 🤯 </div>
+                  </div>
+                  <div className="flip-card-back">
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Accusantium nisi quod repellendus quis placeat ullam, et
+                      est reiciendis quam, atque eaque suscipit? Repellat id,
+                      iure asperiores veniam sunt recusandae incidunt.
+                    </p>
                   </div>
                 </div>
               </div>
