@@ -2,10 +2,26 @@ import React from "react";
 import "./Teachers.scss";
 import assets from "../../assets";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper/modules";
+import "swiper/css";
+import "swiper/swiper-bundle.css";
 
 import "swiper/css";
 
 export const Teachers = () => {
+  const swiperRef = React.useRef(null);
+
+  const goPrev = () => {
+    if (swiperRef.current !== null && swiperRef.current.swiper !== null) {
+      swiperRef.current.swiper.slidePrev();
+    }
+  };
+  const goNext = () => {
+    if (swiperRef.current !== null && swiperRef.current.swiper !== null) {
+      swiperRef.current.swiper.slideNext();
+    }
+  };
+
   return (
     <section className="teacher">
       <div className="container">
@@ -14,6 +30,11 @@ export const Teachers = () => {
         <div className="teacher-cards">
           <img className="owl-img" src={assets.owl2} alt="owl 2" />
           <Swiper
+            modules={[Navigation]}
+            navigation={{
+              prevEl: ".button-prev",
+              nextEl: ".button-next",
+            }}
             spaceBetween={22}
             slidesPerView={3.3}
             breakpoints={{
@@ -166,6 +187,22 @@ export const Teachers = () => {
               </div>
             </SwiperSlide>
           </Swiper>
+          <button className="button-next swiper-button" onClick={goNext}>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+              <path
+                fill="#74C0FC"
+                d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+              />
+            </svg>
+          </button>
+          <button className="button-prev swiper-button" onClick={goPrev}>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+              <path
+                fill="#74C0FC"
+                d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"
+              />
+            </svg>
+          </button>
         </div>
 
         <div className="reviews">
