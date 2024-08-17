@@ -58,6 +58,11 @@ export const Features = () => {
               {tabContent[activeTab]?.title}
             </h3>
             <p className="features-card__desc">{tabContent[activeTab]?.desc}</p>
+            <img
+              className="teacher-owl media-block"
+              src={tabContent[activeTab]?.img}
+              alt="teacher owl img"
+            />
           </div>
           <img
             className="teacher-owl"

@@ -5,6 +5,7 @@
 		display: flex;
 		justify-content: space-between;
 		gap: 20px;
+		flex-wrap: wrap;
 	}
 
 	.answers {
@@ -113,5 +114,68 @@
 				padding-bottom: 30px;
 			}
 		}
+	}
+}
+
+// media queries
+@media screen and (max-width: 992px) {
+	.faq .answers {
+		max-width: 100%;
+		gap: 12px;
+	}
+
+	.faq .accordion-header {
+		padding: 12px;
+		gap: 20px;
+		border-radius: 12px;
+	}
+
+	.faq .accordion {
+		border-radius: 12px;
+	}
+
+	.faq .accordion h3 {
+		line-height: 19px;
+		font-size: 16px;
+	}
+
+	.faq .accordion-content {
+		padding: 0 12px 12px 12px;
+	}
+
+	.faq .start-learning {
+		margin: 50px 0 0 0;
+		padding: 24px;
+	}
+
+	.faq .start-learning__title {
+		font-size: 24px;
+		line-height: 29.26px;
+	}
+
+	.faq .start-learning__desc {
+		padding-top: 12px;
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+	.faq .start-learning__img {
+		display: none;
+	}
+
+	.faq .start-learning form .input-box {
+		padding-bottom: 24px;
+	}
+
+	.faq .start-learning form .orange-btn {
+		height: 43px;
+	}
+
+	.faq .start-learning form {
+		max-width: 100%;
+	}
+
+	.faq {
+		padding-bottom: 96px;
 	}
 }

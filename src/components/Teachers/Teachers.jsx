@@ -17,6 +17,21 @@ export const Teachers = () => {
           <Swiper
             spaceBetween={22}
             slidesPerView={3.3}
+            breakpoints={{
+              0: {
+                slidesPerView: 1.2,
+								spaceBetween: 12,
+              },
+              600: {
+                slidesPerView: 2,
+              },
+              992: {
+                slidesPerView: 3,
+              },
+              1200: {
+                slidesPerView: 3.3,
+              },
+            }}
             onSlideChange={() => console.log("slide change")}
             onSwiper={(swiper) => console.log(swiper)}
             className="teacher-swiper"
