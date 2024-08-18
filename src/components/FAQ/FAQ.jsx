@@ -347,6 +347,7 @@ export const FAQ = () => {
 
       <div className="start-learning container">
         <img className="start-learning__img" src={assets.classterOvl} alt="" />
+        <img className="start-learning__img-media" src={assets.mediaOvl} alt="" />
         <div>
           <h3 className="start-learning__title">
             Начни учиться с Класстером сейчас

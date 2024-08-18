@@ -117,7 +117,7 @@ header {
 			padding: 24px;
 			height: 100%;
 			right: -100%;
-			top: 55px;
+			top: 83px;
 			width: 70%;
 			z-index: 200;
 			height: 100vh;
@@ -139,6 +139,12 @@ header {
 			font-size: 16px;
 			height: 40px;
 		}
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	header .nav {
+		top: 62px;
 	}
 }
 

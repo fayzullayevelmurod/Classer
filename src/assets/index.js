@@ -19,6 +19,7 @@ import statistiks from './icons/statistiks.png';
 import teacher from './icons/teacher.png';
 import folder from './icons/folder.png';
 import fly from './icons/fly.png';
+import mediaOvl from './media-ovl.png';
 export default {
 	logo,
 	cart,
@@ -40,5 +41,6 @@ export default {
 	statistiks,
 	teacher,
 	folder,
-	fly
+	fly,
+	mediaOvl,
 }

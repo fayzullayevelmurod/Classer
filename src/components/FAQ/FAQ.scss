@@ -1,11 +1,14 @@
 .faq {
 	padding-bottom: 100px;
 
+	.start-learning__img-media {
+		display: none;
+	}
+
 	.container {
 		display: flex;
 		justify-content: space-between;
 		gap: 20px;
-		flex-wrap: wrap;
 	}
 
 	.answers {
@@ -68,7 +71,7 @@
 	.start-learning {
 		background: #6699ED;
 		box-shadow: 0px 0px 20px 0px #00000026;
-		padding: 48px;
+		padding: 48px !important;
 		border-radius: 20px;
 		color: #fff;
 		position: relative;
@@ -118,6 +121,73 @@
 }
 
 // media queries
+@media screen and (max-width: 1680px) {
+	.faq .start-learning {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+}
+
+@media screen and (max-width: 1080px) {
+	.faq .start-learning {
+		margin-left: 24px;
+		margin-right: 24px;
+	}
+}
+
+@media screen and (max-width: 1350px) {
+	.faq .start-learning {
+		z-index: 1;
+		margin-top: 144px;
+
+		&::before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: inherit;
+			z-index: -1;
+			border-radius: inherit;
+		}
+	}
+
+	.faq .start-learning__img-media {
+		position: absolute;
+		z-index: -2;
+		top: -91px;
+		left: 50%;
+		transform: translateX(-50%);
+		display: block;
+	}
+
+	.faq .start-learning__img {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.faq .start-learning {
+		flex-direction: column;
+	}
+
+	.faq .start-learning form {
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width:1024px) {
+	.faq>.container:not(.start-learning) {
+		flex-direction: column;
+		gap: 0;
+	}
+
+	.faq .answers {
+		max-width: 100%;
+	}
+}
+
 @media screen and (max-width: 992px) {
 	.faq .answers {
 		max-width: 100%;
@@ -144,8 +214,8 @@
 	}
 
 	.faq .start-learning {
-		margin: 50px 0 0 0;
-		padding: 24px;
+		margin: 144px 24px 0 24px;
+		padding: 24px !important;
 	}
 
 	.faq .start-learning__title {
@@ -171,11 +241,15 @@
 		height: 43px;
 	}
 
-	.faq .start-learning form {
-		max-width: 100%;
-	}
-
 	.faq {
 		padding-bottom: 96px;
+	}
+}
+
+@media screen and (max-width: 680px) {
+
+	.faq .start-learning {
+		margin-left: 0;
+		margin-right: 0;
 	}
 }

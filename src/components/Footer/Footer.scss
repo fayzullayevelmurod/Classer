@@ -28,7 +28,7 @@ footer {
 }
 
 // media queries
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
 	footer {
 		padding: 24px 0;
 
@@ -36,5 +36,32 @@ footer {
 			flex-direction: column;
 			align-items: start;
 		}
+	}
+}
+
+@media screen and (min-width: 1680px) {
+	footer {
+		max-width: 1640px;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 1680px) {
+	footer {
+		margin: 0 50px;
+	}
+}
+
+@media (max-width: 1080px) {
+	footer {
+		margin: 0 24px;
+	}
+}
+
+@media screen and (max-width: 680px) {
+
+	footer {
+		margin-left: 0;
+		margin-right: 0;
 	}
 }
