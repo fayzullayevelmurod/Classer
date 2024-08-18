@@ -20,6 +20,7 @@ import teacher from './icons/teacher.png';
 import folder from './icons/folder.png';
 import fly from './icons/fly.png';
 import mediaOvl from './media-ovl.png';
+import closeIcon from './icons/close-icon.svg';
 export default {
 	logo,
 	cart,
@@ -43,4 +44,5 @@ export default {
 	folder,
 	fly,
 	mediaOvl,
+	closeIcon
 }
